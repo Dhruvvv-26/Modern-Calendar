@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Calculator">
+        <input type="text" id="display" readonly>
+        <div class="button-container">
+            <button class="button" onclick="currentDisplay += 7; updateDisplay();">7</button>
+            <button class="button" onclick="currentDisplay += 8; updateDisplay();">8</button>
+            <button class="button" onclick="currentDisplay += 9; updateDisplay();">9</button>
+            <button class="button" onclick="currentDisplay = ''; updateDisplay();">C</button>
+            
+            <button class="button" onclick="currentDisplay += 4; updateDisplay();">4</button>
+            <button class="button" onclick="currentDisplay += 5; updateDisplay();">5</button>
+            <button class="button" onclick="currentDisplay += 6; updateDisplay();">6</button>
+            <button class="button" onclick="currentDisplay += '*'; updateDisplay();">×</button>
+            
+            <button class="button" onclick="currentDisplay += 1; updateDisplay();">1</button>
+            <button class="button" onclick="currentDisplay += 2; updateDisplay();">2</button>
+            <button class="button" onclick="currentDisplay += 3; updateDisplay();">3</button>
+            <button class="button" onclick="currentDisplay += '-'; updateDisplay();">−</button>
+            
+            <button class="button" onclick="currentDisplay += 0; updateDisplay();">0</button>
+            <button class="button" onclick="currentDisplay += '.'; updateDisplay();">.</button>
+            <button class="button" onclick="currentDisplay += '+'; updateDisplay();">+</button>
+            <button class="button" onclick="currentDisplay += '/'; updateDisplay();">÷</button>
+            
+            <button class="button" onclick="calculate();">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
