@@ -1,31 +1,51 @@
-Modern Calendar Web App
-A responsive, visually appealing calendar built with HTML5, CSS3, and JavaScript, featuring:
-✅ Glass morphism UI with smooth animations
-✅ Dynamic month/year navigation (← → arrows)
-✅ Current day highlight (gradient background)
-✅ Dark mode (auto-detects system preference)
-✅ Mobile-friendly design
+# 📅 Modern Interactive Calendar  
 
-Tech Stack
-Frontend: Vanilla JS, CSS Grid/Flexbox
+A sleek, animated calendar with glass-morphism design, dark mode support, and smooth month navigation.  
 
-Styling: Gradient backgrounds, Material Icons, Poppins font
+👉 **[Live Demo](#)** *[(https://x.com/Dhruvvv_2608/status/1889863336646590908)]*  
 
-Features: Date object handling, hover effects, responsive layout
+## ✨ Features  
+- **Glass-morphism UI** with dynamic gradient background  
+- **Dark/Light mode** (auto-detects system preference)  
+- **Responsive design** (works on mobile & desktop)  
+- **Month navigation** with chevron buttons  
+- **Current day highlight**  
+- **Smooth animations** (hover effects, transitions)  
 
-How to Run
-Clone the repo:
+## 🛠️ Tech Stack  
+- **HTML5** (Semantic structure)  
+- **CSS3** (Grid, Flexbox, Animations)  
+- **JavaScript** (Date handling)  
+- **Google Fonts** (Poppins)  
+- **Material Icons**  
 
-bash
-Copy
-git clone https://github.com/yourusername/modern-calendar.git
-Open index.html in any modern browser.
+## 🚀 How to Use  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/yourusername/modern-calendar.git
+   ```  
+2. Open `index.html` in any modern browser.  
 
-Customization
-Modify in style.css:
+## 🎨 Customization  
+Edit `style.css` to:  
+- Change gradient colors (`#667eea`, `#764ba2`)  
+- Adjust glass effect (`backdrop-filter: blur()`)  
+- Modify spacing/padding  
 
-Gradient colors (#667eea, #764ba2)
 
-Border radius (e.g., 12px for softer edges)
+## 📜 License  
+MIT License  
 
-Animation speed (0.3s ease)
+---  
+Crafted with ❤️ by **[Dhruv Gupta]**  
+
+---
+
+### Key Highlights:  
+✅ **Visually appealing** header with emoji  
+✅ **Feature highlights** in bullet points  
+✅ **Clear tech stack** breakdown  
+✅ **One-command setup**  
+✅ **Customization guide** for easy tweaking  
+✅ **Dark mode** callout as selling point  
+
